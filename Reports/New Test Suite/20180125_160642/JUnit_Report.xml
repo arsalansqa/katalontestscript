@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="84" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="84" timestamp="2018-01-25 16:06:47" hostname="arsalan - ArsalanMushtaq.edevtech.com" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\arsalan\\Katalon Studio\\test 2\\Reports\\New Test Suite\\20180125_160642"/>
+         <property name="logFiles" value="C:\\Users\\arsalan\\Katalon Studio\\test 2\\Reports\\New Test Suite\\20180125_160642\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="arsalan - ArsalanMushtaq.edevtech.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="192.168.117.1"/>
+         <property name="sessionId" value="f42c31d22ad7b806bfc82ac7a711dff4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test Case 14145 To verify creation of new FAQ file" classname="Test Cases/Test Case 14145 To verify creation of new FAQ file" status="PASSED">
+         <system-out><![CDATA[2018-01-25 16:06:47 - [TEST_CASE][PASSED] - Test Cases/Test Case 14145 To verify creation of new FAQ file: Test Cases/Test Case 14145 To verify creation of new FAQ file
+
+2018-01-25 16:06:48 - [TEST_STEP][PASSED] - Statement - chars = "abcdefghijklmnopqrstuvwxyz0123456789": null
+
+2018-01-25 16:06:48 - [TEST_STEP][PASSED] - Statement - varA = Script1516355280036.randomString(chars, 10): null
+
+2018-01-25 16:06:48 - [TEST_STEP][PASSED] - Statement - rand = new java.util.Random(): null
+
+2018-01-25 16:06:48 - [TEST_STEP][PASSED] - Statement - sb = new java.lang.StringBuilder(): null
+
+2018-01-25 16:06:48 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < length, (i++)]): null
+
+2018-01-25 16:06:48 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-25 16:06:48 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-25 16:06:48 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-25 16:06:48 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-25 16:06:48 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-25 16:06:48 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-25 16:06:48 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-25 16:06:48 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-25 16:06:48 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-25 16:06:48 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-25 16:06:48 - [TEST_STEP][PASSED] - Statement - return sb.toString(): null
+
+2018-01-25 16:06:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-25 16:06:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-25 16:06:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://arsalanmushtaq:8028' successfully
+
+2018-01-25 16:06:59 - [MESSAGE][PASSED] - Navigate to 'http://arsalanmushtaq:8028' successfully
+
+2018-01-25 16:06:59 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-01-25 16:07:01 - [MESSAGE][PASSED] - Current window maximized
+
+2018-01-25 16:07:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Folder/Page_Sign In/div_TFS Server URL' is clicked on
+
+2018-01-25 16:07:04 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Sign In/div_TFS Server URL' is clicked on
+
+2018-01-25 16:07:04 - [TEST_STEP][PASSED] - setText: Text 'http://arsalanmushtaq:8080/tfs' is set on object 'Object Repository/New Folder/Page_Sign In/input_TFSServerURL'
+
+2018-01-25 16:07:08 - [MESSAGE][PASSED] - Text 'http://arsalanmushtaq:8080/tfs' is set on object 'Object Repository/New Folder/Page_Sign In/input_TFSServerURL'
+
+2018-01-25 16:07:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Folder/Page_Sign In/div_User ID' is clicked on
+
+2018-01-25 16:07:10 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Sign In/div_User ID' is clicked on
+
+2018-01-25 16:07:10 - [TEST_STEP][PASSED] - setText: Text 'arsalan' is set on object 'Object Repository/New Folder/Page_Sign In/input_EmailAddress'
+
+2018-01-25 16:07:14 - [MESSAGE][PASSED] - Text 'arsalan' is set on object 'Object Repository/New Folder/Page_Sign In/input_EmailAddress'
+
+2018-01-25 16:07:14 - [TEST_STEP][PASSED] - setText: Text 'inte8GREAT' is set on object 'Object Repository/New Folder/Page_Sign In/input_Password'
+
+2018-01-25 16:07:18 - [MESSAGE][PASSED] - Text 'inte8GREAT' is set on object 'Object Repository/New Folder/Page_Sign In/input_Password'
+
+2018-01-25 16:07:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Folder/Page_Sign In/input_btnSignIn' is clicked on
+
+2018-01-25 16:07:22 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Sign In/input_btnSignIn' is clicked on
+
+2018-01-25 16:07:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Folder/Page_Modern Requirements4TFS 2018/a_Browse' is clicked on
+
+2018-01-25 16:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Modern Requirements4TFS 2018/a_Browse' is clicked on
+
+2018-01-25 16:07:24 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018/a_Browse' is present
+
+2018-01-25 16:07:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-25 16:07:25 - [MESSAGE][PASSED] - Object 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018/a_Browse' is present
+
+2018-01-25 16:07:25 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018/a_Browse' are matched.
+
+2018-01-25 16:07:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018/a_Browse' are matched.
+
+2018-01-25 16:07:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Folder/Page_Modern Requirements4TFS 2018/span_k-icon k-i-expand' is clicked on
+
+2018-01-25 16:07:29 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Modern Requirements4TFS 2018/span_k-icon k-i-expand' is clicked on
+
+2018-01-25 16:07:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Folder/Page_Modern Requirements4TFS 2018/span_rules verification' is clicked on
+
+2018-01-25 16:07:31 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Modern Requirements4TFS 2018/span_rules verification' is clicked on
+
+2018-01-25 16:07:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Folder/Page_Modern Requirements4TFS 2018/td' is clicked on
+
+2018-01-25 16:07:33 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Modern Requirements4TFS 2018/td' is clicked on
+
+2018-01-25 16:07:33 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/New Folder/Page_Modern Requirements4TFS 2018/input_btnProjectNavigate' is clickable
+
+2018-01-25 16:07:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-25 16:07:36 - [MESSAGE][PASSED] - Object 'Object Repository/New Folder/Page_Modern Requirements4TFS 2018/input_btnProjectNavigate' is clickable
+
+2018-01-25 16:07:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Folder/Page_Modern Requirements4TFS 2018/input_btnProjectNavigate' is clicked on
+
+2018-01-25 16:07:38 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Modern Requirements4TFS 2018/input_btnProjectNavigate' is clicked on
+
+2018-01-25 16:07:38 - [TEST_STEP][NOT_RUN] - verifyElementPresent: NOT_RUN: verifyElementPresent
+
+2018-01-25 16:07:38 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent
+
+2018-01-25 16:07:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Folder/Page_Modern Requirements4TFS 2018/a_FAQ' is clicked on
+
+2018-01-25 16:07:41 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Modern Requirements4TFS 2018/a_FAQ' is clicked on
+
+2018-01-25 16:07:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Folder/Page_Modern Requirements4TFS 2018/span_New' is clicked on
+
+2018-01-25 16:07:43 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Modern Requirements4TFS 2018/span_New' is clicked on
+
+2018-01-25 16:07:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Folder/Page_Modern Requirements4TFS 2018/span_Topic' is clicked on
+
+2018-01-25 16:07:46 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Modern Requirements4TFS 2018/span_Topic' is clicked on
+
+2018-01-25 16:07:46 - [TEST_STEP][PASSED] - setText: Text '8jo9uybdgx' is set on object 'Object Repository/Page_Modern Requirements4TFS 2018 (1)/input_ig-newfile-textbox-qwd-n'
+
+2018-01-25 16:07:50 - [MESSAGE][PASSED] - Text '8jo9uybdgx' is set on object 'Object Repository/Page_Modern Requirements4TFS 2018 (1)/input_ig-newfile-textbox-qwd-n'
+
+2018-01-25 16:07:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Modern Requirements4TFS 2018 (1)/input_ig-newfile-ok-button-qwd' is clicked on
+
+2018-01-25 16:07:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Modern Requirements4TFS 2018 (1)/input_ig-newfile-ok-button-qwd' is clicked on
+
+2018-01-25 16:07:52 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018 (1)/span_New Question' is visible
+
+2018-01-25 16:07:54 - [MESSAGE][PASSED] - Object 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018 (1)/span_New Question' is visible
+
+2018-01-25 16:07:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018 (1)/span_New Question' is clicked on
+
+2018-01-25 16:07:56 - [MESSAGE][PASSED] - Object: 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018 (1)/span_New Question' is clicked on
+
+2018-01-25 16:07:56 - [TEST_STEP][PASSED] - setText: Text '8jo9uybdgx' is set on object 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018 (1)/input_qwd-newquestion-txtbox'
+
+2018-01-25 16:08:01 - [MESSAGE][PASSED] - Text '8jo9uybdgx' is set on object 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018 (1)/input_qwd-newquestion-txtbox'
+
+2018-01-25 16:08:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018 (1)/input_qwd-newquestion-okbtn' is clicked on
+
+2018-01-25 16:08:03 - [MESSAGE][PASSED] - Object: 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018 (1)/input_qwd-newquestion-okbtn' is clicked on
+
+2018-01-25 16:08:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018 (1)/span_k-icon  k-i-arrow-60-down' is clicked on
+
+2018-01-25 16:08:05 - [MESSAGE][PASSED] - Object: 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018 (1)/span_k-icon  k-i-arrow-60-down' is clicked on
+
+2018-01-25 16:08:05 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018 (1)/span_Check In Changes' is visible
+
+2018-01-25 16:08:07 - [MESSAGE][PASSED] - Object 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018 (1)/span_Check In Changes' is visible
+
+2018-01-25 16:08:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018 (1)/span_Check In Changes' is clicked on
+
+2018-01-25 16:08:09 - [MESSAGE][PASSED] - Object: 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018 (1)/span_Check In Changes' is clicked on
+
+2018-01-25 16:08:09 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018 (1)/Page_Modern Requirements4TFS 2018/div_ig-filemngt-editbar-qwd-to' is visible
+
+2018-01-25 16:08:12 - [MESSAGE][PASSED] - Object 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018 (1)/Page_Modern Requirements4TFS 2018/div_ig-filemngt-editbar-qwd-to' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-25 16:06:47 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/Test Case 14145 To verify creation of new FAQ file]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

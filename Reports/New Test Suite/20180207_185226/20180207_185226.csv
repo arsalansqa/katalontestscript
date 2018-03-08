@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,IE 11,,2018-02-07 18:52:33,2018-02-07 18:52:44,10.910s,FAILED
+,,,,,,
+Test Cases/Common Test Cases/login from VSTS,IE 11,,2018-02-07 18:52:33,2018-02-07 18:52:44,10.419s,FAILED
+openBrowser,IE 11,,2018-02-07 18:52:34,2018-02-07 18:52:40,6.919s,PASSED
+navigateToUrl,IE 11,,2018-02-07 18:52:40,2018-02-07 18:52:42,1.170s,PASSED
+maximizeWindow,IE 11,,2018-02-07 18:52:42,2018-02-07 18:52:44,2.104s,FAILED

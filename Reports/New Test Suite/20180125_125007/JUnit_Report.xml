@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="48" tests="0" failures="1" errors="0">
+   <testsuite name="New Test Suite" tests="0" failures="1" errors="0" time="48" timestamp="2018-01-25 12:51:16" hostname="arsalan - ArsalanMushtaq.edevtech.com" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\arsalan\\Katalon Studio\\test 2\\Reports\\New Test Suite\\20180125_125007"/>
+         <property name="logFiles" value="C:\\Users\\arsalan\\Katalon Studio\\test 2\\Reports\\New Test Suite\\20180125_125007\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\arsalan\\Katalon Studio\\test 2\\Reports\\New Test Suite\\20180125_125007\\1516866723833.png, C:\\Users\\arsalan\\Katalon Studio\\test 2\\Reports\\New Test Suite\\20180125_125007\\1516866723974.png"/>
+         <property name="hostName" value="arsalan - ArsalanMushtaq.edevtech.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Firefox 57.0"/>
+         <property name="hostAddress" value="192.168.117.1"/>
+         <property name="sessionId" value="026e4aef-8d74-4264-908e-fd7b1e289a41"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test Case 14145 To verify creation of new FAQ file" classname="Test Cases/Test Case 14145 To verify creation of new FAQ file" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018 (1)/Page_Modern Requirements4TFS 2018/span_rules verification' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018 (1)/Page_Modern Requirements4TFS 2018/span_rules verification' located by 'By.xpath: //*[@title = 'Project  'rules verification'']' not found)"/>
+         <system-out><![CDATA[2018-01-25 12:51:16 - [TEST_CASE][FAILED] - Test Cases/Test Case 14145 To verify creation of new FAQ file: Test Cases/Test Case 14145 To verify creation of new FAQ file FAILED because (of) Unable to verify object 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018 (1)/Page_Modern Requirements4TFS 2018/span_rules verification' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018 (1)/Page_Modern Requirements4TFS 2018/span_rules verification' located by 'By.xpath: //*[@title = 'Project  'rules verification'']' not found)
+
+2018-01-25 12:51:16 - [TEST_STEP][PASSED] - Statement - chars = "abcdefghijklmnopqrstuvwxyz0123456789": null
+
+2018-01-25 12:51:16 - [TEST_STEP][PASSED] - Statement - varA = Script1516355280036.randomString(chars, 10): null
+
+2018-01-25 12:51:16 - [TEST_STEP][PASSED] - Statement - rand = new java.util.Random(): null
+
+2018-01-25 12:51:16 - [TEST_STEP][PASSED] - Statement - sb = new java.lang.StringBuilder(): null
+
+2018-01-25 12:51:16 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < length, (i++)]): null
+
+2018-01-25 12:51:16 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-25 12:51:16 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-25 12:51:16 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-25 12:51:16 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-25 12:51:16 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-25 12:51:16 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-25 12:51:16 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-25 12:51:16 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-25 12:51:16 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-25 12:51:16 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-25 12:51:16 - [TEST_STEP][PASSED] - Statement - return sb.toString(): null
+
+2018-01-25 12:51:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-25 12:51:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-25 12:51:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://arsalanmushtaq:8028' successfully
+
+2018-01-25 12:51:26 - [MESSAGE][PASSED] - Navigate to 'http://arsalanmushtaq:8028' successfully
+
+2018-01-25 12:51:26 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-01-25 12:51:26 - [MESSAGE][PASSED] - Current window maximized
+
+2018-01-25 12:51:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Folder/Page_Sign In/div_TFS Server URL' is clicked on
+
+2018-01-25 12:51:27 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Sign In/div_TFS Server URL' is clicked on
+
+2018-01-25 12:51:27 - [TEST_STEP][PASSED] - setText: Text 'http://arsalanmushtaq:8080/tfs' is set on object 'Object Repository/New Folder/Page_Sign In/input_TFSServerURL'
+
+2018-01-25 12:51:27 - [MESSAGE][PASSED] - Text 'http://arsalanmushtaq:8080/tfs' is set on object 'Object Repository/New Folder/Page_Sign In/input_TFSServerURL'
+
+2018-01-25 12:51:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Folder/Page_Sign In/div_User ID' is clicked on
+
+2018-01-25 12:51:27 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Sign In/div_User ID' is clicked on
+
+2018-01-25 12:51:27 - [TEST_STEP][PASSED] - setText: Text 'arsalan' is set on object 'Object Repository/New Folder/Page_Sign In/input_EmailAddress'
+
+2018-01-25 12:51:27 - [MESSAGE][PASSED] - Text 'arsalan' is set on object 'Object Repository/New Folder/Page_Sign In/input_EmailAddress'
+
+2018-01-25 12:51:27 - [TEST_STEP][PASSED] - setText: Text 'inte8GREAT' is set on object 'Object Repository/New Folder/Page_Sign In/input_Password'
+
+2018-01-25 12:51:27 - [MESSAGE][PASSED] - Text 'inte8GREAT' is set on object 'Object Repository/New Folder/Page_Sign In/input_Password'
+
+2018-01-25 12:51:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Folder/Page_Sign In/input_btnSignIn' is clicked on
+
+2018-01-25 12:51:29 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Sign In/input_btnSignIn' is clicked on
+
+2018-01-25 12:51:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Folder/Page_Modern Requirements4TFS 2018/a_Browse' is clicked on
+
+2018-01-25 12:51:29 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Modern Requirements4TFS 2018/a_Browse' is clicked on
+
+2018-01-25 12:51:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018/a_Browse' is present
+
+2018-01-25 12:51:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-25 12:51:30 - [MESSAGE][PASSED] - Object 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018/a_Browse' is present
+
+2018-01-25 12:51:30 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018/a_Browse' are matched.
+
+2018-01-25 12:51:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018/a_Browse' are matched.
+
+2018-01-25 12:51:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Folder/Page_Modern Requirements4TFS 2018/span_k-icon k-i-expand' is clicked on
+
+2018-01-25 12:51:30 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Modern Requirements4TFS 2018/span_k-icon k-i-expand' is clicked on
+
+2018-01-25 12:51:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Folder/Page_Modern Requirements4TFS 2018/span_rules verification' is clicked on
+
+2018-01-25 12:51:31 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Modern Requirements4TFS 2018/span_rules verification' is clicked on
+
+2018-01-25 12:51:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Folder/Page_Modern Requirements4TFS 2018/td' is clicked on
+
+2018-01-25 12:51:31 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Modern Requirements4TFS 2018/td' is clicked on
+
+2018-01-25 12:51:31 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/New Folder/Page_Modern Requirements4TFS 2018/input_btnProjectNavigate' is clickable
+
+2018-01-25 12:51:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-25 12:51:32 - [MESSAGE][PASSED] - Object 'Object Repository/New Folder/Page_Modern Requirements4TFS 2018/input_btnProjectNavigate' is clickable
+
+2018-01-25 12:51:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Folder/Page_Modern Requirements4TFS 2018/input_btnProjectNavigate' is clicked on
+
+2018-01-25 12:51:32 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Modern Requirements4TFS 2018/input_btnProjectNavigate' is clicked on
+
+2018-01-25 12:51:32 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018 (1)/Page_Modern Requirements4TFS 2018/span_rules verification' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018 (1)/Page_Modern Requirements4TFS 2018/span_rules verification' located by 'By.xpath: //*[@title = 'Project  'rules verification'']' not found)
+
+2018-01-25 12:51:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-25 12:52:03 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018 (1)/Page_Modern Requirements4TFS 2018/span_rules verification' located by 'By.xpath: //*[@title = 'Project  'rules verification'']' not found
+[[ATTACHMENT|C:\\Users\\arsalan\\Katalon Studio\\test 2\\Reports\\New Test Suite\\20180125_125007\\1516866723833.png]]
+
+2018-01-25 12:52:04 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018 (1)/Page_Modern Requirements4TFS 2018/span_rules verification' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018 (1)/Page_Modern Requirements4TFS 2018/span_rules verification' located by 'By.xpath: //*[@title = 'Project  'rules verification'']' not found)
+[[ATTACHMENT|C:\\Users\\arsalan\\Katalon Studio\\test 2\\Reports\\New Test Suite\\20180125_125007\\1516866723974.png]]]]></system-out>
+         <system-err><![CDATA[2018-01-25 12:51:16 - [TEST_CASE][FAILED] - Test Cases/Test Case 14145 To verify creation of new FAQ file: Test Cases/Test Case 14145 To verify creation of new FAQ file FAILED because (of) Unable to verify object 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018 (1)/Page_Modern Requirements4TFS 2018/span_rules verification' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018 (1)/Page_Modern Requirements4TFS 2018/span_rules verification' located by 'By.xpath: //*[@title = 'Project  'rules verification'']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-25 12:51:16 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/Test Case 14145 To verify creation of new FAQ file FAILED because (of) Unable to verify object 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018 (1)/Page_Modern Requirements4TFS 2018/span_rules verification' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018 (1)/Page_Modern Requirements4TFS 2018/span_rules verification' located by 'By.xpath: //*[@title = 'Project  'rules verification'']' not found)]]></system-out>
+      <system-err><![CDATA[2018-01-25 12:51:16 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/Test Case 14145 To verify creation of new FAQ file FAILED because (of) Unable to verify object 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018 (1)/Page_Modern Requirements4TFS 2018/span_rules verification' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/test case 2/Page_Modern Requirements4TFS 2018 (1)/Page_Modern Requirements4TFS 2018/span_rules verification' located by 'By.xpath: //*[@title = 'Project  'rules verification'']' not found)]]></system-err>
+   </testsuite>
+</testsuites>

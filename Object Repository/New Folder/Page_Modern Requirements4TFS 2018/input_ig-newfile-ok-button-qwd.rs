@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_ig-newfile-ok-button-qwd</name>
+   <tag></tag>
+   <elementGuidId>10d4baaa-e849-4d5f-9992-649c7027fd3e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'ig-newfile-ok-button-qwd-new-file-dialog']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;ig-newfile-ok-button-qwd-new-file-dialog&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ig-newfile-ok-button-qwd-new-file-dialog</value>
+   </webElementProperties>
+</WebElementEntity>

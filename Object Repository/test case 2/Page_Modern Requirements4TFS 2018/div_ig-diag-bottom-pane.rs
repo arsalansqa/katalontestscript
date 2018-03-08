@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_ig-diag-bottom-pane</name>
+   <tag></tag>
+   <elementGuidId>5ed770f4-0bd5-479c-bbea-e0fcd71e549c</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ig-diag-bottom-pane</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ig-newfile-window-content-qwd-new-file-dialog&quot;)/div[1]/div[1]/div[4]/div[1]/div[@class=&quot;ig-diag-bottom-pane&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case 14145:To verify creation of new FAQ file</description>
+   <name>Test Case 14145 To verify creation of new FAQ file</name>
+   <tag>Test Case 14145:To verify creation of new FAQ file</tag>
+   <comment></comment>
+   <testCaseGuid>363c508e-fab4-4ff3-af88-b51ff258570c</testCaseGuid>
+   <variable>
+      <defaultValue>'arsalan'</defaultValue>
+      <description></description>
+      <id>183d7d24-1a85-4e2c-b630-b222d74b6468</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'inte8GREAT'</defaultValue>
+      <description></description>
+      <id>5d006ad9-bc43-4188-8c9f-7f48e329660e</id>
+      <masked>true</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'http://arsalanmushtaq:8080/tfs'</defaultValue>
+      <description></description>
+      <id>13557399-fe8a-4260-8b5a-e1c45f6fa576</id>
+      <masked>false</masked>
+      <name>server</name>
+   </variable>
+   <variable>
+      <defaultValue>'http://arsalanmushtaq:8028'</defaultValue>
+      <description></description>
+      <id>641292f1-8633-4d6c-936f-3a1b2183c425</id>
+      <masked>false</masked>
+      <name>service</name>
+   </variable>
+   <variable>
+      <defaultValue>'shehzad.ali'</defaultValue>
+      <description></description>
+      <id>cca4fe66-7087-4ee3-9b98-2c91f0810b35</id>
+      <masked>false</masked>
+      <name>user2</name>
+   </variable>
+   <variable>
+      <defaultValue>'inte3GREAT'</defaultValue>
+      <description></description>
+      <id>71289236-8e81-485b-9fb1-3a373f6fb498</id>
+      <masked>true</masked>
+      <name>pass2</name>
+   </variable>
+   <variable>
+      <defaultValue>'http://shehzad:8028'</defaultValue>
+      <description></description>
+      <id>d463dbee-27c4-4164-b50b-b16f436b1359</id>
+      <masked>false</masked>
+      <name>service2</name>
+   </variable>
+   <variable>
+      <defaultValue>'http://asna:8080/tfs'</defaultValue>
+      <description></description>
+      <id>9f30b4ba-2657-473f-81a8-61c6e42a4f2b</id>
+      <masked>false</masked>
+      <name>embed</name>
+   </variable>
+</TestCaseEntity>

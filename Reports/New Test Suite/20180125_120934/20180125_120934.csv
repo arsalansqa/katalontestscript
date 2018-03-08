@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Chrome 63.0.3239.132,,2018-01-25 12:09:40,2018-01-25 12:12:11,2m - 30.991s,FAILED
+,,,,,,
+Test Cases/Test Case 14145 To verify creation of new FAQ file,Chrome 63.0.3239.132,Test Case 14145:To verify creation of new FAQ file,2018-01-25 12:09:41,2018-01-25 12:12:11,2m - 30.616s,FAILED
+"Statement - chars = ""abcdefghijklmnopqrstuvwxyz0123456789""",Chrome 63.0.3239.132,,2018-01-25 12:09:41,2018-01-25 12:09:41,0.002s,PASSED
+"Statement - varA = Script1516355280036.randomString(chars, 10)",Chrome 63.0.3239.132,,2018-01-25 12:09:41,2018-01-25 12:09:41,0.008s,PASSED
+Statement - rand = new java.util.Random(),Chrome 63.0.3239.132,,2018-01-25 12:09:41,2018-01-25 12:09:41,0.007s,PASSED
+Statement - sb = new java.lang.StringBuilder(),Chrome 63.0.3239.132,,2018-01-25 12:09:41,2018-01-25 12:09:42,0.019s,PASSED
+"Statement - For ([i = 0, i < length, (i++)])",Chrome 63.0.3239.132,,2018-01-25 12:09:42,2018-01-25 12:09:42,0.029s,PASSED
+Statement - return sb.toString(),Chrome 63.0.3239.132,,2018-01-25 12:09:42,2018-01-25 12:09:42,0.001s,PASSED
+openBrowser,Chrome 63.0.3239.132,,2018-01-25 12:09:42,2018-01-25 12:09:45,3.670s,PASSED
+navigateToUrl,Chrome 63.0.3239.132,,2018-01-25 12:09:45,2018-01-25 12:11:46,2m - 0.931s,PASSED
+maximizeWindow,Chrome 63.0.3239.132,,2018-01-25 12:11:46,2018-01-25 12:11:47,1.187s,PASSED
+click,Chrome 63.0.3239.132,,2018-01-25 12:11:47,2018-01-25 12:11:47,0.111s,PASSED
+setText,Chrome 63.0.3239.132,,2018-01-25 12:11:47,2018-01-25 12:11:48,0.234s,PASSED
+click,Chrome 63.0.3239.132,,2018-01-25 12:11:48,2018-01-25 12:11:48,0.078s,PASSED
+setText,Chrome 63.0.3239.132,,2018-01-25 12:11:48,2018-01-25 12:11:48,0.096s,PASSED
+setText,Chrome 63.0.3239.132,,2018-01-25 12:11:48,2018-01-25 12:11:48,0.092s,PASSED
+click,Chrome 63.0.3239.132,,2018-01-25 12:11:48,2018-01-25 12:12:10,22.544s,PASSED
+click,Chrome 63.0.3239.132,,2018-01-25 12:12:10,2018-01-25 12:12:11,0.109s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-01-25 12:12:11,2018-01-25 12:12:11,0.055s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-01-25 12:12:11,2018-01-25 12:12:11,0.058s,PASSED
+click,Chrome 63.0.3239.132,,2018-01-25 12:12:11,2018-01-25 12:12:11,0.458s,FAILED

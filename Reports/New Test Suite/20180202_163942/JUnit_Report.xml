@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="49" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="49" timestamp="2018-02-02 16:39:48" hostname="arsalan - ArsalanMushtaq.edevtech.com" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\arsalan\\Katalon Studio\\test 2\\Reports\\New Test Suite\\20180202_163942"/>
+         <property name="logFiles" value="C:\\Users\\arsalan\\Katalon Studio\\test 2\\Reports\\New Test Suite\\20180202_163942\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="arsalan - ArsalanMushtaq.edevtech.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 64.0.3282.140"/>
+         <property name="hostAddress" value="192.168.117.1"/>
+         <property name="sessionId" value="e1a86fd6f0ad929121da5b5a3c272fc3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login from VSTS" classname="Test Cases/login from VSTS" status="PASSED">
+         <system-out><![CDATA[2018-02-02 16:39:48 - [TEST_CASE][PASSED] - Test Cases/login from VSTS: Test Cases/login from VSTS
+
+2018-02-02 16:39:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-02 16:39:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-02 16:39:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://app.vssps.visualstudio.com/_signin?realm=easyedsaad.visualstudio.com&reply_to=https%3A%2F%2Feasyedsaad.visualstudio.com%2F_projects&redirect=1&context=eyJodCI6MiwiaGlkIjoiYjgzYmU3ODEtZGYwMS00MDcyLWFhZmYtYTNkZWMzZWI4ZTA1IiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2' successfully
+
+2018-02-02 16:39:57 - [MESSAGE][PASSED] - Navigate to 'https://app.vssps.visualstudio.com/_signin?realm=easyedsaad.visualstudio.com&reply_to=https%3A%2F%2Feasyedsaad.visualstudio.com%2F_projects&redirect=1&context=eyJodCI6MiwiaGlkIjoiYjgzYmU3ODEtZGYwMS00MDcyLWFhZmYtYTNkZWMzZWI4ZTA1IiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2' successfully
+
+2018-02-02 16:39:57 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-02-02 16:39:59 - [MESSAGE][PASSED] - Current window maximized
+
+2018-02-02 16:39:59 - [TEST_STEP][PASSED] - setText: Text 'arsalan.mushtaq@edevtech.com' is set on object 'Object Repository/VSTS login/Page_Sign in to your Microsoft acco/input_loginfmt'
+
+2018-02-02 16:40:04 - [MESSAGE][PASSED] - Text 'arsalan.mushtaq@edevtech.com' is set on object 'Object Repository/VSTS login/Page_Sign in to your Microsoft acco/input_loginfmt'
+
+2018-02-02 16:40:04 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/VSTS login/Page_Sign in to your Microsoft acco/input_loginfmt'
+
+2018-02-02 16:40:06 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/VSTS login/Page_Sign in to your Microsoft acco/input_loginfmt'
+
+2018-02-02 16:40:06 - [TEST_STEP][PASSED] - setText: Text 'inte1GREAT' is set on object 'Object Repository/VSTS login/Page_Sign in to your Microsoft acco/input_passwd'
+
+2018-02-02 16:40:10 - [MESSAGE][PASSED] - Text 'inte1GREAT' is set on object 'Object Repository/VSTS login/Page_Sign in to your Microsoft acco/input_passwd'
+
+2018-02-02 16:40:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSTS login/Page_Sign in to your Microsoft acco/input_idSIButton9' is clicked on
+
+2018-02-02 16:40:15 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS login/Page_Sign in to your Microsoft acco/input_idSIButton9' is clicked on
+
+2018-02-02 16:40:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSTS login/Page_Sign in to your account/input_idBtn_Back' is clicked on
+
+2018-02-02 16:40:22 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS login/Page_Sign in to your account/input_idBtn_Back' is clicked on
+
+2018-02-02 16:40:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSTS login/Page_Projects - Visual Studio Team/a_13.13.1TFVCAgile' is clicked on
+
+2018-02-02 16:40:27 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS login/Page_Projects - Visual Studio Team/a_13.13.1TFVCAgile' is clicked on
+
+2018-02-02 16:40:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSTS login/Page_Project Overview - Visual Stud/span_Work' is clicked on
+
+2018-02-02 16:40:32 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS login/Page_Project Overview - Visual Stud/span_Work' is clicked on
+
+2018-02-02 16:40:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSTS login/Page_Stories/span_FAQ' is clicked on
+
+2018-02-02 16:40:35 - [MESSAGE][PASSED] - Object: 'Object Repository/VSTS login/Page_Stories/span_FAQ' is clicked on
+
+2018-02-02 16:40:35 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/Page_FAQ - Visual Studio Team Servi/iframe_externalContentHost4']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-02 16:39:48 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/login from VSTS]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_13.13.1TFVCAgile</name>
+   <tag></tag>
+   <elementGuidId>0fc88f31-0c83-4956-becc-10db69a5e110</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ms-Link root_47352e01 project-team-name ms-fontSize-m isEnabled_47352e01</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/13.13.1TFVCAgile</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Project '13.13.1TFVCAgile'</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>13.13.1TFVCAgile</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vss_1&quot;)/div[@class=&quot;internal-content-host&quot;]/div[@class=&quot;project-hub-component&quot;]/div[@class=&quot;project-list-component&quot;]/div[@class=&quot;ms-Fabric hub-view-component ms-u-fadeIn200 css-32&quot;]/div[@class=&quot;hub-view-content&quot;]/ul[@class=&quot;hub-groups&quot;]/li[1]/div[@class=&quot;hub-group&quot;]/div[@class=&quot;ms-Viewport&quot;]/div[@class=&quot;ms-DetailsList root_993257f2&quot;]/div[1]/div[2]/div[@class=&quot;ms-FocusZone focusZone_993257f2&quot;]/div[@class=&quot;ms-SelectionZone&quot;]/div[@class=&quot;ms-List&quot;]/div[@class=&quot;ms-List-surface&quot;]/div[@class=&quot;ms-List-page&quot;]/div[@class=&quot;ms-List-cell&quot;]/div[@class=&quot;is-active&quot;]/div[@class=&quot;ms-FocusZone ms-DetailsRow css-40 root_75dfbf45 owner_046fb872 is-selected isSelected_046fb872 rootIsSelected_75dfbf45&quot;]/div[@class=&quot;ms-DetailsRow-fields fields_75dfbf45&quot;]/div[@class=&quot;ms-DetailsRow-cell cell_75dfbf45 project-column-title&quot;]/div[@class=&quot;project-team-title team-level-0&quot;]/a[@class=&quot;ms-Link root_47352e01 project-team-name ms-fontSize-m isEnabled_47352e01&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

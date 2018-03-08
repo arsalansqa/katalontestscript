@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Firefox 57.0,,2018-02-07 18:52:33,2018-02-07 18:53:09,36.546s,FAILED
+,,,,,,
+Test Cases/Common Test Cases/login from VSTS,Firefox 57.0,,2018-02-07 18:52:33,2018-02-07 18:53:09,35.906s,FAILED
+openBrowser,Firefox 57.0,,2018-02-07 18:52:34,2018-02-07 18:52:53,19.250s,PASSED
+navigateToUrl,Firefox 57.0,,2018-02-07 18:52:53,2018-02-07 18:52:57,3.834s,PASSED
+maximizeWindow,Firefox 57.0,,2018-02-07 18:52:57,2018-02-07 18:52:58,1.099s,PASSED
+setText,Firefox 57.0,,2018-02-07 18:52:58,2018-02-07 18:53:05,7.270s,PASSED
+sendKeys,Firefox 57.0,,2018-02-07 18:53:05,2018-02-07 18:53:07,2.102s,PASSED
+setText,Firefox 57.0,,2018-02-07 18:53:07,2018-02-07 18:53:09,2.077s,FAILED

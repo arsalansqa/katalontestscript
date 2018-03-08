@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Firefox 57.0,,2018-01-25 12:58:46,2018-01-25 12:59:39,53.021s,FAILED
+,,,,,,
+Test Cases/Test Case 14145 To verify creation of new FAQ file,Firefox 57.0,Test Case 14145:To verify creation of new FAQ file,2018-01-25 12:58:46,2018-01-25 12:59:39,52.815s,FAILED
+"Statement - chars = ""abcdefghijklmnopqrstuvwxyz0123456789""",Firefox 57.0,,2018-01-25 12:58:46,2018-01-25 12:58:46,0.001s,PASSED
+"Statement - varA = Script1516355280036.randomString(chars, 10)",Firefox 57.0,,2018-01-25 12:58:46,2018-01-25 12:58:46,0.000s,PASSED
+Statement - rand = new java.util.Random(),Firefox 57.0,,2018-01-25 12:58:46,2018-01-25 12:58:46,0.002s,PASSED
+Statement - sb = new java.lang.StringBuilder(),Firefox 57.0,,2018-01-25 12:58:46,2018-01-25 12:58:46,0.006s,PASSED
+"Statement - For ([i = 0, i < length, (i++)])",Firefox 57.0,,2018-01-25 12:58:46,2018-01-25 12:58:46,0.013s,PASSED
+Statement - return sb.toString(),Firefox 57.0,,2018-01-25 12:58:46,2018-01-25 12:58:46,0.001s,PASSED
+openBrowser,Firefox 57.0,,2018-01-25 12:58:46,2018-01-25 12:58:54,7.316s,PASSED
+navigateToUrl,Firefox 57.0,,2018-01-25 12:58:54,2018-01-25 12:59:28,34.706s,PASSED
+maximizeWindow,Firefox 57.0,,2018-01-25 12:59:28,2018-01-25 12:59:29,0.104s,PASSED
+click,Firefox 57.0,,2018-01-25 12:59:29,2018-01-25 12:59:29,0.291s,PASSED
+setText,Firefox 57.0,,2018-01-25 12:59:29,2018-01-25 12:59:29,0.104s,PASSED
+click,Firefox 57.0,,2018-01-25 12:59:29,2018-01-25 12:59:29,0.241s,PASSED
+setText,Firefox 57.0,,2018-01-25 12:59:29,2018-01-25 12:59:29,0.083s,PASSED
+setText,Firefox 57.0,,2018-01-25 12:59:29,2018-01-25 12:59:29,0.044s,PASSED
+click,Firefox 57.0,,2018-01-25 12:59:29,2018-01-25 12:59:31,2.014s,PASSED
+click,Firefox 57.0,,2018-01-25 12:59:31,2018-01-25 12:59:32,0.235s,PASSED
+verifyElementPresent,Firefox 57.0,,2018-01-25 12:59:32,2018-01-25 12:59:32,0.044s,PASSED
+verifyElementText,Firefox 57.0,,2018-01-25 12:59:32,2018-01-25 12:59:32,0.039s,PASSED
+click,Firefox 57.0,,2018-01-25 12:59:32,2018-01-25 12:59:32,0.787s,PASSED
+click,Firefox 57.0,,2018-01-25 12:59:32,2018-01-25 12:59:33,0.761s,PASSED
+click,Firefox 57.0,,2018-01-25 12:59:33,2018-01-25 12:59:33,0.281s,PASSED
+waitForElementClickable,Firefox 57.0,,2018-01-25 12:59:33,2018-01-25 12:59:34,0.595s,PASSED
+click,Firefox 57.0,,2018-01-25 12:59:34,2018-01-25 12:59:34,0.271s,PASSED
+verifyElementPresent,Firefox 57.0,,2018-01-25 12:59:34,2018-01-25 12:59:34,0.002s,NOT_RUN
+click,Firefox 57.0,,2018-01-25 12:59:34,2018-01-25 12:59:37,2.233s,PASSED
+click,Firefox 57.0,,2018-01-25 12:59:37,2018-01-25 12:59:38,1.471s,PASSED
+click,Firefox 57.0,,2018-01-25 12:59:38,2018-01-25 12:59:39,0.846s,FAILED
