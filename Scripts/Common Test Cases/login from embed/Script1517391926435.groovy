@@ -38,11 +38,13 @@ WebUI.click(findTestObject('embed login objects/Page_Backlog items/span_FAQ'))
 
 WebUI.click(findTestObject('embed login objects/Page_FAQ - Microsoft Team Foundatio/div_Password'))
 
-WebUI.setText(findTestObject('embed login objects/Page_FAQ - Microsoft Team Foundatio/input_Password'), 'inte8GREAT')
+WebUI.setText(findTestObject('embed login objects/Page_FAQ - Microsoft Team Foundatio/input_Password'), 
+    'inte8GREAT')
 
 WebUI.click(findTestObject('embed login objects/Page_FAQ - Microsoft Team Foundatio/input_ig-LoginDialog-signInBtn'))
 
-WebUI.switchToFrame(findTestObject('Page_FAQ - Microsoft Team Foundatio/iframe_externalContentHost4'), 5)
+WebUI.switchToFrame(findTestObject('Page_FAQ - Microsoft Team Foundatio/iframe_externalContentHost4'), 
+    5)
 
 WebUI.click(findTestObject('New Folder/Page_Modern Requirements4TFS 2018/span_New'))
 
@@ -50,15 +52,18 @@ WebUI.click(findTestObject('New Folder/Page_Modern Requirements4TFS 2018/span_To
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Page_Modern Requirements4TFS 2018 (1)/input_ig-newfile-textbox-qwd-n'), varA)
+WebUI.setText(findTestObject('Page_Modern Requirements4TFS 2018 (1)/input_ig-newfile-textbox-qwd-n'), 
+    varA)
 
 WebUI.click(findTestObject('Page_Modern Requirements4TFS 2018 (1)/input_ig-newfile-ok-button-qwd'))
 
-WebUI.waitForElementVisible(findTestObject('test case 2/Page_Modern Requirements4TFS 2018 (1)/span_New Question'), 7)
+WebUI.waitForElementVisible(findTestObject('test case 2/Page_Modern Requirements4TFS 2018 (1)/span_New Question'), 
+    7)
 
 WebUI.click(findTestObject('test case 2/Page_Modern Requirements4TFS 2018 (1)/span_New Question'))
 
-WebUI.setText(findTestObject('test case 2/Page_Modern Requirements4TFS 2018 (1)/input_qwd-newquestion-txtbox'), varA)
+WebUI.setText(findTestObject('test case 2/Page_Modern Requirements4TFS 2018 (1)/input_qwd-newquestion-txtbox'), 
+    varA)
 
 WebUI.click(findTestObject('test case 2/Page_Modern Requirements4TFS 2018 (1)/input_qwd-newquestion-okbtn'))
 
@@ -68,7 +73,8 @@ WebUI.click(findTestObject('Page_Modern Requirements4TFS 2018 (2)/span_Add Answe
 
 WebUI.click(findTestObject('Page_Modern Requirements4TFS 2018 (2)/span_New item'))
 
-WebUI.setText(findTestObject('Page_Modern Requirements4TFS 2018 (2)/input_qwd-wititle-txtbox'), varA)
+WebUI.setText(findTestObject('Page_Modern Requirements4TFS 2018 (2)/input_qwd-wititle-txtbox'), 
+    varA)
 
 WebUI.click(findTestObject('Page_Modern Requirements4TFS 2018 (2)/input_qwd-addwiBtn'))
 
@@ -84,9 +90,11 @@ not_run: WebUI.click(findTestObject('Page_User Story 10251 122112 - Micr/div_vss
 
 not_run: WebUI.click(findTestObject('Page_User Story 10251 122112 - Micr/div_vss_112'))
 
-not_run: WebUI.setText(findTestObject('Page_FAQ - Microsoft Team Foundatio (1)/input_witc_57_txt'), 'user')
+not_run: WebUI.setText(findTestObject('Page_FAQ - Microsoft Team Foundatio (1)/input_witc_57_txt'), 
+    'user')
 
-WebUI.setText(findTestObject('Page_FAQ - Visual Studio Team Servi (1)/input_witc_51_txt'), '12345')
+WebUI.setText(findTestObject('Page_FAQ - Visual Studio Team Servi (1)/input_witc_51_txt'), 
+    '12345')
 
 WebUI.click(findTestObject('Page_FAQ - Visual Studio Team Servi (1)/span_menu-item-icon bowtie-ico'))
 
@@ -100,14 +108,18 @@ not_run: WebUI.closeWindowIndex(1)
 
 not_run: WebUI.switchToWindowIndex(0)
 
-not_run: WebUI.verifyElementText(findTestObject('Page_Modern Requirements4TFS 2018 (7)/a_test name 1'), 'test name1', FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyElementText(findTestObject('Page_Modern Requirements4TFS 2018 (7)/a_test name 1'), 
+    'test name1', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('test case 2/Page_Modern Requirements4TFS 2018 (1)/span_k-icon  k-i-arrow-60-down'))
 
-WebUI.waitForElementVisible(findTestObject('test case 2/Page_Modern Requirements4TFS 2018 (1)/span_Check In Changes'), 10)
+WebUI.waitForElementVisible(findTestObject('test case 2/Page_Modern Requirements4TFS 2018 (1)/span_Check In Changes'), 
+    10)
 
 WebUI.click(findTestObject('test case 2/Page_Modern Requirements4TFS 2018 (1)/span_Check In Changes'))
 
 WebUI.verifyElementVisible(findTestObject('test case 2/Page_Modern Requirements4TFS 2018 (1)/Page_Modern Requirements4TFS 2018/div_ig-filemngt-editbar-qwd-to'), 
     FailureHandling.STOP_ON_FAILURE)
+
+WebUI.acceptAlert()
 
